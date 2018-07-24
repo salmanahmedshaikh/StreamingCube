@@ -1,0 +1,43 @@
+src/Operator/RelationLeafOperator.o: \
+ src/Operator/RelationLeafOperator.cpp \
+ src/Operator/RelationLeafOperator.h \
+ src/Operator/../Internal/Synopsis/RelationSynopsis.h \
+ src/Operator/../Internal/Synopsis/../../Common/stdafx.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/Element.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/Types.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/BinaryJson.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/BinaryJsonObjectBuilder.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonBuilderBase.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonObject.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/Builder.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/StringData.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/inline_decls.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonElement.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonTypes.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/atomic_int.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonObjectIterator.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Common/../BinaryJson/../BinaryJson/BinaryInline.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Element/../../Internal/Buffer/BufferConstraint.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Buffer/RelationBuffer.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Buffer/../../Internal/Buffer/StreamPage.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Memory/MemoryManager.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Buffer/../../Internal/Buffer/AbstractBuffer.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Synopsis/Synopsis.h \
+ src/Operator/../Internal/Synopsis/LineageSynopsis.h \
+ src/Operator/../Internal/Synopsis/../../Internal/Buffer/LineageBuffer.h \
+ src/Operator/../Internal/Element/ElementIterator.h \
+ src/Operator/../IO/RelationInput.h \
+ src/Operator/../IO/../IO/IStreamInput.h \
+ src/Operator/../IO/../IO/../Schema/JsonSchema.h \
+ src/Operator/../IO/../Internal/Synopsis/WindowSynopsis.h \
+ src/Operator/../IO/../Internal/Synopsis/../../Internal/Buffer/QueueBuffer.h \
+ src/Operator/Operator.h src/Operator/../Internal/Queue/QueueEntity.h \
+ src/Operator/../Query/QueryExpressionAbstract.h \
+ src/Operator/../Query/../Query/QueryAttribute.h \
+ src/Operator/../Query/QueryProjectionAbstract.h \
+ src/Operator/../Query/../Query/QueryIntermediateRepresentationInterpreter.h \
+ src/Operator/../BinaryJson/json.h \
+ src/Operator/../Utility/DocumentIdentifierGenerator.h \
+ src/Operator/../Utility/TimestampGenerator.h \
+ src/Operator/../Query/QueryUtility.h \
+ src/Operator/../Query/../Query/QueryConditionAbstract.h

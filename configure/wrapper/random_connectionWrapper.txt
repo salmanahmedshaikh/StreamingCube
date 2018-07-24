@@ -1,0 +1,22 @@
+{
+
+    "implement_class":"SpecifiedInputRateStreamInput",
+    "class_argument":{
+    },
+    "information_source_schema":{
+        "id":"random_connection_stream",
+        "type":"object",
+        "properties":{
+            "remoteIp":{
+                "type":"string"
+            },
+            "connectionNumber":{
+                "type":"number"
+            },
+	    "socketState":{
+		"type":"string"
+	    }
+        }
+    }
+
+}

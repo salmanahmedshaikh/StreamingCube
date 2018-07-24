@@ -1,0 +1,32 @@
+{
+    "implement_class":"CSVInput",
+    "class_argument":
+    {
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "data_file":"testData/modifiedStarSchemaBenchmark/partDim.csv"
+    },
+    "information_source_schema":
+    {
+        "id":"PartDimensionTPCH",
+        "type":"object", "properties":{
+            "partKey":{
+                "type":"int",
+                "description": "identifier"
+            },
+            "partName":{
+                "type":"string",
+                "description": "name"
+            },
+            "brandName":{
+                "type":"string"
+            },
+            "size":{
+                "type":"int"
+            },
+            "price":{
+                "type":"float"
+            }
+        }
+    }
+}

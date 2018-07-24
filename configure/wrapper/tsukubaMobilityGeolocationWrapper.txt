@@ -1,0 +1,29 @@
+{
+
+    "implement_class":"SocketStreamInput",
+    "class_argument":{
+        "input_ip":"localhost",
+        "input_port":"8999"
+    },
+    "information_source_schema":{
+        "id":"tsukubaMobilityGeolocation",
+        "type":"object", "properties":
+                                        {
+                                                                    "obvID":{"type": "string"},
+                                                                    "surveyCode":{"type": "string"},
+                                                                    "surveyName":{"type": "string"},
+                                                                    "userID":{"type": "string"},
+                                                                    "userName":{"type": "string"},
+                                                                    "loginID":{"type": "string"},
+                                                                    "recordTimestamp":{"type": "long long"},
+                                                                    "latitude":{"type": "float"},
+                                                                    "longitude":{"type": "float"},
+                                                                    "altitude":{"type": "int"},
+                                                                    "measurementError":{"type": "int"},
+                                                                    "measurementMode":{"type": "int"},
+                                                                    "ignitionStatus":{"type": "int"},
+                                                                    "generatedTimestamp":{"type": "long long"},
+                                                                    "validity":{"type": "int"}
+                                        }
+    }
+}

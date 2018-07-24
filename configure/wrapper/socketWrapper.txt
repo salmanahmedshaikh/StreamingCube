@@ -1,0 +1,20 @@
+{
+
+    "implement_class":"SocketStreamInput",
+    "class_argument":{
+        "input_ip":"localhost",
+        "input_port":"8999"
+    },
+    "information_source_schema":{
+        "id":"socket_stream1",
+        "type":"object", "properties":
+                                        {
+                                                                    "pid":{"type": "string"},
+                                                                    "longitude":{"type": "float"},
+                                                                    "latitude":{"type": "float"},
+                                                                    "sex":{"type": "int"},
+                                                                    "age":{"type": "int"},
+                                                                    "work":{"type": "int"}
+                                        }
+    }
+}

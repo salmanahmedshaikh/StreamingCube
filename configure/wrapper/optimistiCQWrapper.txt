@@ -1,0 +1,35 @@
+{
+	"implement_class": "SocketStreamInput",
+	"class_argument": {
+		"input_ip": "localhost",
+		"input_port": "8080"
+	},
+	"information_source_schema":
+
+	{
+		"id": "optimistiCQ",
+		"type": "object",
+		"properties": {
+			"query_id": {
+				"type": "number"
+			},
+			"tuples": {
+				"type": "array",
+				"items": {
+					"tuple_id": {
+						"type": "long long"
+					},
+					"timestamp": {
+						"type": "long long"
+					},
+					"attribute_1": {
+						"type": "string"
+					},
+					"attribute_2": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	}
+}

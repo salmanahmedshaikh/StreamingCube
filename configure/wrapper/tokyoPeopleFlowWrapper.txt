@@ -1,0 +1,28 @@
+{
+"implement_class":"TokyoPeopleFlowStreamInput",
+"class_argument":{
+    "data_folder":["/home/jsspinner/Downloads/tokyoPeopleFlowData/tokyoPeopleFlowDataAll/sorted-fullLength-csv"]
+    },
+"information_source_schema":    {
+                                    "id":"tokyoPeopleFlowStream",
+                                    "type":"object", "properties":
+                                        {
+                                                                    "pid":{"type": "string"},
+                                                                    "tno":{"type": "int"},
+                                                                    "sno":{"type": "int"},
+                                                                    "pdate":{"type": "long long"},
+                                                                    "longitude":{"type": "float"},
+                                                                    "latitude":{"type": "float"},
+                                                                    "sex":{"type": "int"},
+                                                                    "age":{"type": "int"},
+                                                                    "padd":{"type": "long long"},
+                                                                    "work":{"type": "int"},
+                                                                    "purpose":{"type": "int"},
+                                                                    "magfac":{"type": "int"},
+                                                                    "magfac2":{"type": "int"},
+                                                                    "datum":{"type": "int"}
+                                        }
+                                }
+}
+
+

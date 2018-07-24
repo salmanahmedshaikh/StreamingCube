@@ -1,0 +1,25 @@
+src/Internal/Element/ElementIterator.o: \
+ src/Internal/Element/ElementIterator.cpp \
+ src/Internal/Element/../../Common/stdafx.h \
+ src/Internal/Element/../../Internal/Element/ElementIterator.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/RelationBuffer.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/StreamPage.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/BufferConstraint.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/Types.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/BinaryJson.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/BinaryJsonObjectBuilder.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonBuilderBase.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonObject.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/Builder.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/StringData.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/inline_decls.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonElement.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonTypes.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/../BinaryJson/atomic_int.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/../BinaryJson/BinaryJsonObjectIterator.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Buffer/../../Common/../BinaryJson/../BinaryJson/BinaryInline.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Element/Element.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/../../Internal/Memory/MemoryManager.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Buffer/../../Internal/Buffer/AbstractBuffer.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Synopsis/RelationSynopsis.h \
+ src/Internal/Element/../../Internal/Element/../../Internal/Synopsis/../../Internal/Synopsis/Synopsis.h

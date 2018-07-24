@@ -1,0 +1,16 @@
+{
+"implement_class" : "RssStreamInput",
+"class_argument":		{"url_array":["http://www.bilibili.tv/rss-13.xml",
+                                                                   "http://www.dmzj.com/rss.xml"],
+ 			"corresponding_encoding_array":["UTF-8","UTF-8"]
+                                                },
+"information_source_schema":{"id": "stream4",
+		                  "type":"object",
+		                  "properties": {
+			                                     "title":{
+				                                         "type": "string"
+			                                            },									                     "link":{						              				                          "type": "string"
+	                                                    	             }
+	                                                        }
+		                 }
+}

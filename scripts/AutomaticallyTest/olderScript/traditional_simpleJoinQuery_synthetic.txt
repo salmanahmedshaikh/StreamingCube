@@ -1,0 +1,346 @@
+ ***********************queryIndex : 1***************************
++++++++++++++++ join selectivity : 1+++++++++++++++
+ ----------------------stream1InputRate experiment--------------------- 
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+1
+500000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+267038.4
+3169.83687908
+44301.0
+478.404757501
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.33
+500000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+467050.6
+1979.3558144
+140653.6
+626.282236695
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.2
+500000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+508265.8
+4932.57670594
+160526.8
+1605.68906081
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.14
+500000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+517132.2
+7163.44583005
+164967.0
+2308.77361385
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.11
+500000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+524706.6
+1269.39995273
+169026.6
+428.002149527
+ ----------------------stream2InputRate experiment--------------------- 
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.2
+100000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+328514.8
+2661.09115966
+100266.94
+862.294431386
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.2
+200000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+518231.2
+2824.72288198
+163680.4
+898.595481849
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.2
+300000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+516488.4
+7145.42907319
+163093.8
+2338.22953535
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.2
+400000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+508165.8
+1488.13741301
+160460.2
+472.979238445
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.2
+500000
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+505421.8
+2839.68515156
+159527.0
+944.241070914
+ ----------------------stream1WindowSize experiment--------------------- 
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1
+10
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+567966.8
+6970.95274407
+189240.6
+2320.94253268
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+10
+10
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+566483.0
+10825.2659274
+188700.2
+3600.25123568
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+100
+10
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+559295.4
+4715.33708657
+185600.4
+1564.70234869
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+510519.0
+9031.58900748
+161173.6
+2892.61297791
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+10000
+10
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+237858.0
+1103.44913793
+28920.22
+127.532480569
+ ----------------------stream2WindowSize experiment--------------------- 
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+1
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+515343.0
+10684.0850614
+162687.0
+3415.84999671
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+514631.6
+9253.56280791
+162540.4
+2950.00098983
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+100
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+505207.8
+2943.39575321
+159580.2
+959.425327996
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+1000
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+507668.0
+2417.18811845
+160427.0
+786.149604083
+<<<<<>>>>>>
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+1000
+10000
+0.2
+500000
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+494220.0
+10195.7929755
+155933.6
+3294.12407781

@@ -1,0 +1,29 @@
+{
+    "implement_class":"CSVInput",
+    "class_argument":
+    {
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "data_file":"testData/modifiedStarSchemaBenchmark/custDim.csv"
+    },
+    "information_source_schema":
+    {
+        "id":"CustomerDimensionTPCH",
+        "type":"object", "properties":{
+            "custKey":{
+                "type":"int",
+                "description": "identifier"
+            },
+            "custName":{
+                "type":"string",
+                "description": "name"
+            },
+            "nationKey":{
+                "type":"int"
+            },
+            "regionKey":{
+                "type":"int"
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "implement_class":"SpecifiedInputRateStreamInput",
+    "class_argument":
+    {
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "data_file":"testData/salesFact5Dim.txt"
+    },
+    "information_source_schema":
+    {
+        "id":"salesFact5Dim",
+        "type":"object", "properties":{
+            "prodID":{
+                "type":"int",
+                "description": "key"
+            },
+            "suppID":{
+                "type":"int",
+                "description": "key"
+            },
+            "promoID":{
+                "type":"int",
+                "description": "key"
+            },
+            "custID":{
+                "type":"int",
+                "description": "key"
+            },
+            "storeID":{
+                "type":"int",
+                "description": "key"
+            },
+            "salesAmountFACT":{
+                "type":"int",
+                "description": "value"
+            }
+        }
+    }
+}

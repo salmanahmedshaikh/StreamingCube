@@ -1,0 +1,25 @@
+{
+
+    "implement_class":"RelationInput",
+    "class_argument":{
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "user_name":"dong",
+        "user_password":"moonone",
+        "database_name":"XE",
+        "table_name":"test"
+    },
+    "information_source_schema":{
+        "id":"relation1",
+        "type":"list",
+        "properties":{
+            "A":{
+                "type":"number"
+            },
+            "B":{
+                "type":"number"
+            }
+        }
+    }
+
+}

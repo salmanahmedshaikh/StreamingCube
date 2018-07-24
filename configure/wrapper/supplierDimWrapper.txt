@@ -1,0 +1,26 @@
+{
+    "implement_class":"CSVInput",
+    "class_argument":
+    {
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "data_file":"testData/supplierDim.txt"
+    },
+    "information_source_schema":
+    {
+        "id":"supplierDimension",
+        "type":"object", "properties":{
+            "suppID":{
+                "type":"int",
+                "description": "identifier"
+            },
+            "suppName":{
+                "type":"string",
+                "description": "name"
+            },
+            "suppArea":{
+                "type":"string"
+            }
+        }
+    }
+}

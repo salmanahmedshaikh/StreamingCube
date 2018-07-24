@@ -1,0 +1,23 @@
+{
+    "implement_class":"CSVInput",
+    "class_argument":
+    {
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "data_file":"testData/promoDim.txt"
+    },
+    "information_source_schema":
+    {
+        "id":"promotionDimension",
+        "type":"object", "properties":{
+            "promoID":{
+                "type":"int",
+                "description": "identifier"
+            },
+            "promoName":{
+                "type":"string",
+                "description": "name"
+            }
+        }
+    }
+}

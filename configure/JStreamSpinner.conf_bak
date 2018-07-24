@@ -1,0 +1,21 @@
+wrapper_folder = ./configure/wrapper
+query_index = 9
+stream1_window_size = 1
+stream2_window_size = 1000
+stream3_window_size = 1
+stream4_window_size = 0
+# stream1 behaves as event stream in the experiments.
+# stream1_input_rate = 1 (1 tuple/second)
+stream1_input_rate = 0.5
+stream2_input_rate = 100000
+stream3_input_rate = 1
+stream4_input_rate = 0
+tokyoPeopleStream_input_rate = 10000
+activate_duration = 0millisecond
+num_queries = 1
+node_type = 0
+server_port = 8088
+worker_command_port = 8085
+worker_status_port = 8090
+worker_data_port = 8095
+simulator_stream_port = 8999

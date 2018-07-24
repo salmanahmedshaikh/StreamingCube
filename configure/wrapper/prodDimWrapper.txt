@@ -1,0 +1,26 @@
+{
+    "implement_class":"CSVInput",
+    "class_argument":
+    {
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "data_file":"testData/prodDim.txt"
+    },
+    "information_source_schema":
+    {
+        "id":"productDimension",
+        "type":"object", "properties":{
+            "prodID":{
+                "type":"int",
+                "description": "identifier"
+            },
+            "prodName":{
+                "type":"string",
+                "description": "name"
+            },
+            "prodBrand":{
+                "type":"string"
+            }
+        }
+    }
+}

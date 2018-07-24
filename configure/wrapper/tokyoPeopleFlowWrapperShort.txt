@@ -1,0 +1,18 @@
+{
+"implement_class":"TokyoPeopleFlowStreamInput_short",
+"class_argument":{
+    "data_folder":["/home/jsspinner/Downloads/tokyoPeopleFlowData/tokyoPeopleFlowDataAll/movingData/byTime/selected"]
+    },
+"information_source_schema":    {
+                                    "id":"tokyoPeopleFlowStreamShort",
+                                    "type":"object", "properties":
+                                        {
+                                                                    "pid":{"type": "string"},
+                                                                    "longitude":{"type": "float"},
+                                                                    "latitude":{"type": "float"},
+                                                                    "sex":{"type": "int"},
+                                                                    "age":{"type": "int"},
+                                                                    "work":{"type": "int"}
+                                        }
+                                }
+}

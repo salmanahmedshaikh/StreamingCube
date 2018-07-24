@@ -1,0 +1,19 @@
+{
+
+    "implement_class":"SpecifiedInputRateStreamInput",
+    "class_argument":{
+    },
+    "information_source_schema":{
+        "id":"performanceTestStream2",
+        "type":"object",
+        "properties":{
+            "A":{
+                "type":"string"
+            },
+            "C":{
+                "type":"number"
+            }
+        }
+    }
+
+}

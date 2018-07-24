@@ -1,0 +1,16 @@
+{
+"implement_class" : "TwitterStreamInput",
+"class_argument":		{"user_name":"",		"user_password":""},
+"information_source_schema":{"id": "stream3",
+		                  "type":"object",
+		                  "properties": {
+			                                     "text":{
+				                                         "type": "string"
+			                                            },									                     "created_at":{									                          "type": "string"
+	                                                    	             },
+					     "coordinates":{
+				                                         "type": "string"
+			                                            }
+	                                                        }
+		                 }
+}

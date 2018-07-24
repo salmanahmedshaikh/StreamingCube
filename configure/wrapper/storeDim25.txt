@@ -1,0 +1,26 @@
+{
+    "implement_class":"CSVInput",
+    "class_argument":
+    {
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "data_file":"testData/modifiedStarSchemaBenchmark/storeDim.csv"
+    },
+    "information_source_schema":
+    {
+        "id":"StoreDimensionTPCH",
+        "type":"object", "properties":{
+            "storeKey":{
+                "type":"int",
+                "description": "identifier"
+            },
+            "storeArea":{
+                "type":"string",
+                "description": "name"
+            },
+            "regionKey":{
+                "type":"int"
+            }
+        }
+    }
+}

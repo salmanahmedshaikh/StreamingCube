@@ -1,0 +1,24 @@
+{
+
+    "implement_class":"ConnectionStreamInput",
+    "class_argument":{
+        "input_ip":"localhost",
+        "input_port":"9092"
+    },
+    "information_source_schema":{
+        "id":"connection_stream",
+        "type":"object",
+        "properties":{
+            "remoteIp":{
+                "type":"string"
+            },
+            "connectionNumber":{
+                "type":"int"
+            },
+	    "socketState":{
+		"type":"string"
+	    }
+        }
+    }
+
+}

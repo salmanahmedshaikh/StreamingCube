@@ -1,0 +1,39 @@
+{
+    "implement_class":"SpecifiedInputRateStreamInput",
+    "class_argument":
+    {
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "data_file":"testData/modifiedStarSchemaBenchmark/salesFact4Dim.csv"
+    },
+    "information_source_schema":
+    {
+        "id":"salesFact4DimTPCH",
+        "type":"object", "properties":{
+            "partKey":{
+                "type":"int",
+                "description": "key"
+            },
+            "suppKey":{
+                "type":"int",
+                "description": "key"
+            },
+            "custKey":{
+                "type":"int",
+                "description": "key"
+            },
+            "storeKey":{
+                "type":"int",
+                "description": "key"
+            },
+            "storeArea":{
+                "type":"string",
+                "description": "name"
+            },
+            "salesQtyFACT":{
+                "type":"int",
+                "description": "value"
+            }
+        }
+    }
+}

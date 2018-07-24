@@ -1,0 +1,30 @@
+{
+
+    "implement_class":"LogStreamInput",
+    "class_argument":{
+        "input_ip":"localhost",
+        "input_port":"9091"
+    },
+    "information_source_schema":{
+        "id":"log_stream",
+        "type":"object",
+        "properties":{
+            "remoteIp":{
+                "type":"string"
+            },
+            "queryString":{
+                "type":"string"
+            },
+	    "sentBytes":{
+		"type":"int"
+	    },
+	    "responseTime":{
+		"type":"int"
+	    },
+	    "sessionId":{
+		"type":"string"
+	    }
+        }
+    }
+
+}

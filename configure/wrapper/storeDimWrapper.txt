@@ -1,0 +1,23 @@
+{
+    "implement_class":"CSVInput",
+    "class_argument":
+    {
+        "input_ip":"localhost",
+        "input_port":"3306",
+        "data_file":"testData/storeDim.txt"
+    },
+    "information_source_schema":
+    {
+        "id":"storeDimension",
+        "type":"object", "properties":{
+            "storeID":{
+                "type":"int",
+                "description": "identifier"
+            },
+            "storeName":{
+                "type":"string",
+                "description": "name"
+            }
+        }
+    }
+}

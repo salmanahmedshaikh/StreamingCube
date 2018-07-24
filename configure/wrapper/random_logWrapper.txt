@@ -1,0 +1,28 @@
+{
+
+    "implement_class":"SpecifiedInputRateStreamInput",
+    "class_argument":{
+    },
+    "information_source_schema":{
+        "id":"random_log_stream",
+        "type":"object",
+        "properties":{
+            "remoteIp":{
+                "type":"string"
+            },
+            "queryString":{
+                "type":"string"
+            },
+	    "sentBytes":{
+		"type":"number"
+	    },
+	    "responseTime":{
+		"type":"number"
+	    },
+	    "sessionId":{
+		"type":"string"
+	    }
+        }
+    }
+
+}

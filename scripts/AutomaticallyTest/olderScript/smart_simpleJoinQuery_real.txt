@@ -1,0 +1,365 @@
+ ***********************queryIndex : 1***************************
++++++++++++++++ join selectivity : 1+++++++++++++++
+ ----------------------stream1InputRate experiment--------------------- 
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+10
+1
+100000
+0millisecond
+1
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+101501.0
+1486.0
+22744.25
+335.25
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+10
+0.33
+100000
+0millisecond
+1
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+99229.25
+2567.75
+75948.05
+2621.25
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+10
+0.2
+100000
+0millisecond
+1
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+93364.8
+320.5
+85511.3
+963.6
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+10
+0.14
+100000
+0millisecond
+1
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+88023.1
+1584.7
+91640.4
+1009.3
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+10
+0.11
+100000
+0millisecond
+1
+average Load
+stdDev Load
+average Throughput
+stdDev Throughput
+77386.05
+2810.25
+92619.0
+3942.2
+ ----------------------stream1WindowSize experiment--------------------- 
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1
+10
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+82141.4
+11342.9
+98470.85
+3779.15
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+10
+10
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+78316.55
+2973.85
+87167.65
+3248.45
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+100
+10
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+84141.45
+2250.15
+91517.95
+1698.15
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+10
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+94095.05
+1448.85
+88354.2
+1177.9
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+10000
+10
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+93282.25
+2424.05
+16483.05
+397.75
+ ----------------------stream2WindowSize experiment--------------------- 
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+1
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+88374.05
+745.35
+83833.3
+837.4
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+10
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+92652.0
+715.9
+87141.45
+434.25
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+100
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+95637.15
+52.45
+89725.55
+1151.95
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+1000
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+89596.9
+2347.7
+85700.5
+3650.3
+<<<<<>>>>>>
+queryIndex
+join_selectivity
+stream1_window_size
+stream2_window_size
+stream1_input_rate
+stream2_input_rate
+activate_duration
+1
+1
+1000
+10000
+0.2
+100000
+0millisecond
+1
+averag Load
+stdDev Load
+averge Throughput
+stdDev Throughput
+92388.15
+226.95
+88471.25
+668.45

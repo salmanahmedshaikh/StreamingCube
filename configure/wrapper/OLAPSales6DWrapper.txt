@@ -1,0 +1,20 @@
+{
+
+    "implement_class":"SocketStreamInput",
+    "class_argument":{
+        "input_ip":"192.168.0.150",
+        "input_port":"8999"
+    },
+    "information_source_schema":{
+        "id":"OLAPSales6DWrapper",
+        "type":"object", "properties":
+                                        {
+                                                                    "pid":{"type": "string"},
+                                                                    "longitude":{"type": "float"},
+                                                                    "latitude":{"type": "float"},
+                                                                    "sex":{"type": "int"},
+                                                                    "age":{"type": "int"},
+                                                                    "work":{"type": "int"}
+                                        }
+    }
+}

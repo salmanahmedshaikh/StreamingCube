@@ -1,0 +1,13 @@
+{
+"implement_class" : "RandomGeneratedStreamInput",
+"class_argument":{},
+"information_source_schema":{"id": "stream2",
+		                  "type":"object",
+		                  "properties": {
+			                                     "A":{
+				                                         "type": "string"
+			                                            },									                     "C":{									                          "type":"number"
+	                                                    	             }
+	                                                        }
+		                 }
+}

@@ -1,0 +1,27 @@
+{
+"implement_class" : "PeopleFlowStreamInput",
+"class_argument":		{"data_folder":["D:\\Ñ§Ï°\\×¤²¨\\peopleflowexample"]
+                                                },
+"information_source_schema":{"id": "stream5",
+		                  "type":"object",
+		                  "properties": {
+					     "personid":{
+				                                         "type": "int"
+			                                            },
+			                                     "time":{
+				                                         "type": "long long"
+			                                            },									                     "longitude":{						              				                          "type": "float"
+	                                                    	             },
+     					    "latitude":{						              				                          "type": "float"
+	                                                    	             },
+                                                   		    "gender":{						              				                          "type": "int"
+	                                                    	             },
+					    "age":{						              				                          	"type": "int"
+	                                                    	             },
+					    "home":{					                        					 "type": "int"
+	                                                    	             },
+					"occupation":{					                        					 "type": "int"
+	                                                    	             }
+	                                                        }
+		                 }
+}
