@@ -146,12 +146,14 @@ void TwitterStreamInput::connectTwitterServer(void* arg)
 	{
 		memset( tmpBuf, 0, 1024 );
 		printf( "\nEnter twitter username: " );
-		gets( tmpBuf );
+		//gets( tmpBuf );
+		//std::getline(std::cin, tmpBuf);
 		userName =  tmpBuf ;
 
 		memset( tmpBuf, 0, 1024 );
 		printf( "\nEnter twitter password: " );
-		gets( tmpBuf );
+		//gets( tmpBuf );
+		//std::getline(std::cin, tmpBuf);
 		passWord = tmpBuf ;
 	}
 
@@ -163,31 +165,31 @@ void TwitterStreamInput::connectTwitterServer(void* arg)
 	/* Set proxy server usename, password, IP and port (if present) */
 	memset( tmpBuf, 0, 1024 );
 	printf( "\nDo you have a proxy server configured (0 for no; 1 for yes): " );
-	gets( tmpBuf );
+	//gets( tmpBuf );
 	tmpStr = tmpBuf;
 	if( std::string::npos != tmpStr.find( "1" ) )
 	{
 		memset( tmpBuf, 0, 1024 );
 		printf( "\nEnter proxy server IP: " );
-		gets( tmpBuf );
+		//gets( tmpBuf );
 		tmpStr = tmpBuf;
 		twitterObj.setProxyServerIp( tmpStr );
 
 		memset( tmpBuf, 0, 1024 );
 		printf( "\nEnter proxy server port: " );
-		gets( tmpBuf );
+		//gets( tmpBuf );
 		tmpStr = tmpBuf;
 		twitterObj.setProxyServerPort( tmpStr );
 
 		memset( tmpBuf, 0, 1024 );
 		printf( "\nEnter proxy server username: " );
-		gets( tmpBuf );
+		//gets( tmpBuf );
 		tmpStr = tmpBuf;
 		twitterObj.setProxyUserName( tmpStr );
 
 		memset( tmpBuf, 0, 1024 );
 		printf( "\nEnter proxy server password: " );
-		gets( tmpBuf );
+		//gets( tmpBuf );
 		tmpStr = tmpBuf;
 		twitterObj.setProxyPassword( tmpStr );
 	}
@@ -234,7 +236,7 @@ void TwitterStreamInput::connectTwitterServer(void* arg)
 		/* Step 3: Get PIN  */
 		memset( tmpBuf, 0, 1024 );
 		printf( "\nDo you want to visit twitter.com for PIN (0 for no; 1 for yes): " );
-		gets( tmpBuf );
+		//gets( tmpBuf );
 		tmpStr = tmpBuf;
 		if( std::string::npos != tmpStr.find( "1" ) )
 		{
@@ -242,7 +244,7 @@ void TwitterStreamInput::connectTwitterServer(void* arg)
 			memset( tmpBuf, 0, 1024 );
 			printf( "\nPlease visit this link in web browser and authorize this application:\n%s", authUrl.c_str() );
 			printf( "\nEnter the PIN provided by twitter: " );
-			gets( tmpBuf );
+			//gets( tmpBuf );
 			tmpStr = tmpBuf;
 			twitterObj.getOAuth().setOAuthPin( tmpStr );
 		}
